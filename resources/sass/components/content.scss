@@ -1,0 +1,48 @@
+#content {
+	width: 100%;
+	min-height: 80vh;
+	padding: 0.5vh 0 2.5vh;
+	line-height: 2;
+	.box-card {
+		max-width: 1000px;
+		margin: 20px auto;
+		background: #fff;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+		transition: all 0.3s;
+		&:hover {
+			box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+		}
+		.clearfix {
+			&before, &:after {
+				display: table;
+				content: "";
+			}
+			&:after {
+				clear: both;
+			}
+			.title {
+				font-size: 20px;
+				font-weight: bold;
+				line-height: 40px;
+				float: left;
+			}
+			.tags {
+				height: 28px;
+				padding: 6px 10px;
+				line-height: 28px;
+				float: left;
+				.tag {
+					margin-left: 10px;
+				}
+			}
+			.button {
+				padding: 4px 0;
+				float: right;
+			}
+		}
+		.text {
+			font-size: 15px;
+		}
+	}
+}
