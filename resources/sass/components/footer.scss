@@ -1,13 +1,12 @@
 #footer {
-	width: 100%;
-	height: 7.5vh;
+	height: 3rem;
 	color: #555;
 	line-height: 2;
 	font-size: 13.5px;
-	font-family: 'Verdana';
+	font-family: Verdana;
 	text-align: center;
-	padding-top: 2.5vh;
-	background-size: 200%; 
+	padding: 1.5rem 0;
+	background-size: 200%;
 	background-image: linear-gradient(
 		to right,
 		#bb313e25,
@@ -33,8 +32,4 @@
 	#framework {
 		margin: 0 auto;
 	}
-}
-
-@media screen and (max-width: 300px) {
-    
 }

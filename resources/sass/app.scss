@@ -1,12 +1,13 @@
 //
 
 @import "components/header";
-
 @import "components/content";
-
 @import "components/footer";
 
-body {
+html,
+body,
+#app {
+	height: 100%;
 	margin: 0;
 }
 

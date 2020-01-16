@@ -5,11 +5,11 @@
 			<img id="logo" src="favicon.ico" alt="logo" />
 			<div id="title">BulletinBoard</div>
 			<div id="btn">
-				<el-tooltip effect="dark" content="AkiJoey" placement="bottom" :open-delay="300">
-					<a href="https://akijoey.com/"><el-avatar size="large" src="avatar.png"></el-avatar></a>
-				</el-tooltip>
 				<el-tooltip effect="dark" content="Insert" placement="bottom" :open-delay="300">
 					<el-button type="primary" icon="el-icon-edit" circle @click="dialogVisible = true"></el-button>
+				</el-tooltip>
+				<el-tooltip effect="dark" content="AkiJoey" placement="bottom" :open-delay="300">
+					<a href="https://akijoey.com/"><el-avatar size="large" src="avatar.png"></el-avatar></a>
 				</el-tooltip>
 			</div>
 		</div>

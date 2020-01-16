@@ -81282,6 +81282,29 @@ var render = function() {
               {
                 attrs: {
                   effect: "dark",
+                  content: "Insert",
+                  placement: "bottom",
+                  "open-delay": 300
+                }
+              },
+              [
+                _c("el-button", {
+                  attrs: { type: "primary", icon: "el-icon-edit", circle: "" },
+                  on: {
+                    click: function($event) {
+                      _vm.dialogVisible = true
+                    }
+                  }
+                })
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-tooltip",
+              {
+                attrs: {
+                  effect: "dark",
                   content: "AkiJoey",
                   placement: "bottom",
                   "open-delay": 300
@@ -81299,29 +81322,6 @@ var render = function() {
                   1
                 )
               ]
-            ),
-            _vm._v(" "),
-            _c(
-              "el-tooltip",
-              {
-                attrs: {
-                  effect: "dark",
-                  content: "Insert",
-                  placement: "bottom",
-                  "open-delay": 300
-                }
-              },
-              [
-                _c("el-button", {
-                  attrs: { type: "primary", icon: "el-icon-edit", circle: "" },
-                  on: {
-                    click: function($event) {
-                      _vm.dialogVisible = true
-                    }
-                  }
-                })
-              ],
-              1
             )
           ],
           1
