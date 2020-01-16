@@ -1,7 +1,8 @@
 #header {
 	height: 3rem;
 	padding: .5rem 0;
-	box-shadow: 0 0 12px 0 rgba(7,17,27,0.06);
+	box-shadow: 0 0 12px 0 rgba(7, 17, 27, .06);
+	animation: down 1s;
 	#nav {
 		margin: 0 auto;
 		max-width: 1000px;
@@ -29,10 +30,10 @@
 	.el-dialog {
 		min-width: 400px;
 		border-radius: 8px;
-		box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-		transition: all 0.3s;
+		box-shadow: 0 4px 8px 6px rgba(7, 17, 27, .06);
+		transition: .3s;
 		&:hover {
-			box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+			box-shadow: 0 4px 12px 12px rgba(7, 17, 27, .15);
 		}
 		.el-dialog__body {
 			padding: 15px 20px;

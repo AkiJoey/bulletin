@@ -1,5 +1,5 @@
 <template>
-	<div id="header" class="down">
+	<div id="header">
 		<!-- nav -->
 		<div id="nav">
 			<img id="logo" src="favicon.ico" alt="logo" />
@@ -9,7 +9,7 @@
 					<el-button type="primary" icon="el-icon-edit" circle @click="dialogVisible = true"></el-button>
 				</el-tooltip>
 				<el-tooltip effect="dark" content="AkiJoey" placement="bottom" :open-delay="300">
-					<a href="https://akijoey.com/"><el-avatar size="large" src="avatar.png"></el-avatar></a>
+					<a href="https://akijoey.com"><el-avatar size="large" src="avatar.png"></el-avatar></a>
 				</el-tooltip>
 			</div>
 		</div>

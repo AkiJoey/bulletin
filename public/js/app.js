@@ -81142,9 +81142,9 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "up", attrs: { id: "content" } },
+    { attrs: { id: "content" } },
     _vm._l(_vm.articles, function(article, index) {
-      return _c("el-card", { key: index, staticClass: "box-card up" }, [
+      return _c("el-card", { key: index, staticClass: "box-card" }, [
         _c(
           "div",
           {
@@ -81234,11 +81234,19 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "up color", attrs: { id: "footer" } }, [
-      _c("div", { attrs: { id: "copyright" } }, [_vm._v("©2019 By AkiJoey")]),
+    return _c("div", { attrs: { id: "footer" } }, [
+      _c("div", { attrs: { id: "copyright" } }, [
+        _vm._v("©2019 By "),
+        _c("a", { attrs: { href: "https://akijoey.com" } }, [_vm._v("AkiJoey")])
+      ]),
       _vm._v(" "),
       _c("div", { attrs: { id: "framework" } }, [
-        _vm._v("Driven Laravel + Vue")
+        _vm._v("Driven "),
+        _c("a", { attrs: { href: "https://laravel.com" } }, [
+          _vm._v("Laravel")
+        ]),
+        _vm._v(" + "),
+        _c("a", { attrs: { href: "https://vuejs.org" } }, [_vm._v("Vue")])
       ])
     ])
   }
@@ -81266,7 +81274,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "down", attrs: { id: "header" } },
+    { attrs: { id: "header" } },
     [
       _c("div", { attrs: { id: "nav" } }, [
         _c("img", { attrs: { id: "logo", src: "favicon.ico", alt: "logo" } }),
@@ -81313,7 +81321,7 @@ var render = function() {
               [
                 _c(
                   "a",
-                  { attrs: { href: "https://akijoey.com/" } },
+                  { attrs: { href: "https://akijoey.com" } },
                   [
                     _c("el-avatar", {
                       attrs: { size: "large", src: "avatar.png" }

@@ -1,7 +1,7 @@
 <template>
-	<div id="footer" class="up color">
-		<div id="copyright">©2019 By AkiJoey</div>
-		<div id="framework">Driven Laravel + Vue</div>
+	<div id="footer">
+		<div id="copyright">©2019 By <a href="https://akijoey.com">AkiJoey</a></div>
+		<div id="framework">Driven <a href="https://laravel.com">Laravel</a> + <a href="https://vuejs.org">Vue</a></div>
 	</div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-	<div id="content" class="up">
-		<el-card class="box-card up" v-for="(article, index) in articles" :key="index">
+	<div id="content">
+		<el-card class="box-card" v-for="(article, index) in articles" :key="index">
 			<div slot="header" class="clearfix">
 				<span class="title">{{article.title}}</span>
 				<div class="tags">
