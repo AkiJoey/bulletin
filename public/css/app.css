@@ -84,11 +84,9 @@
 #content .box-card {
   max-width: 1000px;
   margin: 20px auto;
-  background: #fff;
+  border: 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px 6px rgba(7, 17, 27, 0.06);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
   -webkit-animation: up 1s;
           animation: up 1s;
 }

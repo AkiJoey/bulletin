@@ -5,10 +5,9 @@
 	.box-card {
 		max-width: 1000px;
 		margin: 20px auto;
-		background: #fff;
+		border: 0;
 		border-radius: 8px;
 		box-shadow: 0 4px 8px 6px rgba(7, 17, 27, .06);
-		transition: .3s;
 		animation: up 1s;
 		&:hover {
 			box-shadow: 0 4px 12px 12px rgba(7, 17, 27, .15);
